@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+/* 
+Light 300
+*/
+body {
+    margin: 0;
+    color: #959595;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    
+    background-color: #202020;
+}
+a {
+  color: #DEDEDE;
+  text-decoration: none;
+  transition: opacity 0.3s;}
+
+a:hover {
+    opacity: 0.5;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
+    
+}
+
+
+.main {
+
+}
+
+.welcome {
+    margin-top: 140px;
+
+}
+
+.welcome .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.welcome__desc {
+
+}
+
+.welcome__title {
+    width: 400px;
+    margin-bottom: 24px;
+    margin-top: 0;
+
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.19;
+    color: #DEDEDE; 
+
+}
+
+.welcome__text {
+    width: 410px;
+    margin-bottom: 40px;
+
+}
+
+.btn {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 16px 48px;
+    display: inline-block;
+    background: #9d9d9d;
+    border-radius: 4px;
+    display: inline-flex;
+
+}
+.btn::before{
+ }
+
+.welcome__btn {
+
+}
+
+.welcome__img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 105px;
+
+}
+
+.project {
+    margin-top: 80px;
+}
+.project .container {
+    max-width: 750px;
+}
+
+
+.project__title {
+    font-weight: 500;
+    text-align: left;
+    color: #DEDEDE;
+}
+.project__text {
+}
+.projects {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.projects .container {
+    max-width: 750px;
+}
+.projects__title {
+    font-weight: 500;
+    text-align: left;
+    color: #DEDEDE;
+}
+.project__text {
+}
